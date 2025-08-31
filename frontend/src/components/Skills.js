@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const Skills = () => {
-  const [skills, setSkills] = useState([]);
+  const [skills, setSkills] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
