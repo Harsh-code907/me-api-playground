@@ -50,10 +50,6 @@ const Profile = () => {
           <h3 className="font-semibold text-gray-700 mb-2">Education</h3>
           <p className="text-gray-600">{education}</p>
         </div>
-         <div>
-          <h3 className="font-semibold text-gray-700 mb-2">Institute</h3>
-          <p className="text-gray-600">{institute}</p>
-        </div>
         <div>
           <h3 className="font-semibold text-gray-700 mb-2">Work</h3>
           <p className="text-gray-600">{work}</p>
